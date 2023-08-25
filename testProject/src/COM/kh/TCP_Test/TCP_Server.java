@@ -14,7 +14,7 @@ public class TCP_Server {
 		int port = 5000;
 		// 서버소켓 참조변수 선언
 		ServerSocket serverSocket = null;
-		
+		//
 		try {		
 			// serverSocket 객체생성 => port를 정해줘야한다.
 			serverSocket = new ServerSocket(port);
